@@ -1,3 +1,18 @@
+# Artifact version of HotCRP
+
+This was forked from HotCRP on Nov 2, 2024. This will track the
+master hotcrp much more closely than the ordinary IACR hotcrp.
+The latter needs several things:
+1. conflict resolution by pulling in coauthors automatically.
+2. support for IACR copyright/license forms.
+3. upload of final versions to IACR instead of hotcrp.
+4. support for program editor import of accepted papers.
+5. support for LNCS workflow to create proceedings front matter.
+
+By contrast, this one only uses the coauthor API because the
+workflow for artifacts is completely different than the publishing
+workflow.
+
 HotCRP Conference Review Software [![Build Status](https://github.com/kohler/hotcrp/actions/workflows/tests.yml/badge.svg)](https://github.com/kohler/hotcrp/actions/workflows/tests.yml)
 =================================
 
